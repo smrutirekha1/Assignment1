@@ -1,0 +1,33 @@
+.head_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    position: fixed;
+    width: 100%;
+}
+#banner_img{
+  object-fit: cover;
+  padding-top: 106px;
+   
+}
+.three_col_section {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #363636;
+}
+.hero_product_container {
+    text-align: center;
+}
+.two_col_sec{
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 40px;
+}
+#footer_container{
+    color: white;
+    margin-left: 10%;
+    max-width: 80%;
+    line-height: 1.8;
+    padding-top: 2%;
+}
