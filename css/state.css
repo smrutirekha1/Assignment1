@@ -39,7 +39,20 @@
     width: 100%;
 }
 .three_col_section p{
-    margin-top: 0px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 17px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;
+   max-height: 80px;
+   -webkit-line-clamp: 5;
+   -webkit-box-orient: vertical;
+}
+.three_col_section a{
+    color: brown;
+    font-weight: bold;
 }
 .three_col_section section{
     max-width: 30%;
@@ -197,14 +210,145 @@ div#hero_product_header {
     .two_col_sec {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        /* text-align: center; */
     }
     #overview_img {
         width: 100%;
+        text-align: center;
     }
     #overview_details {
         width: 80%;
     } 
+    .three_col_section p {
+        max-width: 47%;
+        margin: 0 auto;
+        margin-bottom: 10px;  
+    }
+ }
+ @media(max-width:800px){
+    .three_col_section p {
+    max-width: 49%;
+    }
+ }
+ @media(max-width:768px){
+    .three_col_section p {
+    max-width: 50%;
+    }
+ }
+ @media(max-width:735px){
+    .three_col_section p {
+    max-width: 53%;
+    }
+ }
+ @media(max-width:710px){
+    .three_col_section p {
+    max-width: 55%;
+    }
+ }
+ @media(max-width:670px){
+    .three_col_section p {
+    max-width: 58%;
+    }
+ }
+ @media(max-width:650px){
+    .three_col_section p {
+    max-width: 60%;
+    }
+ }
+ @media(max-width:620px){
+    .three_col_section p {
+    max-width: 62%;
+    }
+ }
+ @media(max-width:612px){
+    .three_col_section p {
+    max-width: 64%;
+    }
+ }
+ @media(max-width:590px){
+    .three_col_section p {
+    max-width: 65%;
+    }
+ }
+ @media(max-width:575px){
+    .three_col_section p {
+    max-width: 67%;
+    }
+ }
+ @media(max-width:560px){
+    .three_col_section p {
+    max-width: 69%;
+    }
+ }
+ @media(max-width:550px){
+    .three_col_section p {
+    max-width: 70%;
+    }
+ }
+ @media(max-width:540px){
+    .three_col_section p {
+    max-width: 72%;
+    }
+ }
+ @media(max-width:520px){
+    .three_col_section p {
+    max-width: 74%;
+    }
+ }
+ @media(max-width:510px){
+    .three_col_section p {
+    max-width: 76%;
+    }
+ }
+ @media(max-width:500px){
+    .three_col_section p {
+    max-width: 75%;
+    }
+ }
+ @media(max-width:490px){
+    .three_col_section p {
+    max-width: 79%;
+    }
+ }
+ @media(max-width:480px){
+    .three_col_section p {
+    max-width: 81%;
+    }
+ }
+ @media(max-width:470px){
+    .three_col_section p {
+    max-width: 83%;
+    }
+ }
+ @media(max-width:455px){
+    .three_col_section p {
+    max-width: 86%;
+    }
+ }
+ @media(max-width:440px){
+    .three_col_section p {
+    max-width: 88%;
+    }
+ }
+ @media(max-width:430px){
+    .three_col_section p {
+    max-width: 90%;
+    }
+ }
+ @media(max-width:420px){
+    .three_col_section p {
+    max-width: 92%;
+    }
+ }
+ @media(max-width:411px){
+    .three_col_section p {
+    max-width: 94%;
+    }
+ }
+ @media(max-width:400px){
+    .three_col_section p {
+    max-width: 99%;
+    }
  }
  @media(max-width:420px){
     #overview_img img{
@@ -212,26 +356,34 @@ div#hero_product_header {
     }
     #overview_details {
        font-size: 12px;
-       width: 60% !important;
+       width: 60%;
     }
     footer{
         font-size: 12px;
         text-align: center;
     }
  }
+ @media(max-width:388px){
+    .three_col_section img{
+       max-width: 98%;
+    } 
+}
  @media(max-width:375px){
     .three_col_section img{
-       max-width: 70%;
+       max-width: 96%;
     } 
+    .three_col_section p {
+        max-width: 96%;
+    }
     .header_cart {
         margin-left: 10px;
     }
     .header_logo img{
-       max-width: 70% !important;
-       align-content: center!important;
+       max-width: 70%;
+       align-content: center;
     }
     #banner_img{
-        padding-top: 72px !important; 
+        padding-top: 72px; 
     }
     .mobile-menu{
         margin-right: 80px;
@@ -239,12 +391,18 @@ div#hero_product_header {
  }
  @media(max-width:356px){
     #banner_img{
-        padding-top: 72px !important; 
+        padding-top: 72px; 
     }
  }
  @media(max-width:356px){
     #banner_img{
-        padding-top: 55px !important; 
+        padding-top: 55px; 
     }
  }
+ @media (min-width: 835px) and (max-width:880px){
+    #hero_image img{
+        max-width: 80%;
+    }
+ }
+ 
  
